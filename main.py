@@ -1,7 +1,7 @@
 import square
 import subprocess
 import kreiszahl
-import wurzel_n.py
+
 
 def main():
     print("Was möchten Sie tun?")
@@ -13,8 +13,7 @@ def main():
         if eingabe == "1":
             subprocess.run(["python3","square.py"])
         if eingabe == "2":
-            #subprocess.run(["python3","wurzel_n.py"])
-			wurzel_n()
+            subprocess.run(["python3","wurzel_n.py"])
         print("Was möchten Sie tun?")
         eingabe=input("Ihre Wahl: ")
             
