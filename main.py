@@ -1,6 +1,6 @@
 import square
 import subprocess
-import kreiszahl
+#import kreiszahl
 
 def showmenu():
     print("Was möchten Sie tun?")
