@@ -1,12 +1,14 @@
 import square
 import subprocess
-import kreiszahl
+#import kreiszahl
 
-
-def main():
+def showmenu():
     print("Was möchten Sie tun?")
     print("[1]Quadratische Funktion loesen")
     print("[2]Wurzel")
+
+def main():
+    showmenu()
     eingabe=input("Ihre Wahl: ")
 
     while eingabe!="bye":
@@ -14,7 +16,7 @@ def main():
             subprocess.run(["python3","square.py"])
         if eingabe == "2":
             subprocess.run(["python3","wurzel_n.py"])
-        print("Was möchten Sie tun?")
+        showmenu()
         eingabe=input("Ihre Wahl: ")
             
     print("Bye!")
