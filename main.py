@@ -8,6 +8,6 @@ def main():
             eingabe=input("Ihre Wahl: ")
             
     print("Bye!")
-    
+    print("Farewell!")
 if __name__ == "__main__":
     main()
