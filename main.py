@@ -8,6 +8,16 @@ def main():
     print("[1]Quadratische Funktion loesen")
     print("[2]Wurzel")
     print("[3]Münzwurf-Funktion")
+
+#import kreiszahl
+
+def showmenu():
+    print("Was möchten Sie tun?")
+    print("[1]Quadratische Funktion loesen")
+    print("[2]Wurzel")
+
+def main():
+    showmenu()
     eingabe=input("Ihre Wahl: ")
 
     while eingabe!="bye":
@@ -18,6 +28,7 @@ def main():
         if eingabe == "3"
             muenze_werfen(["python3","muenze_werfen.py"])
         print("Was möchten Sie tun?")
+        showmenu()
         eingabe=input("Ihre Wahl: ")
 
     print("Bye!")
