@@ -1,12 +1,11 @@
 # pi-berechn2.py
-# pi-Berechnung mit regulären 2n-Ecken
 
 from math import sqrt, pi
 
-n = 6  # Start mit regulärem Sechseck
-s = 1  # Seitenlänge des reg. Sechsecks
+n = 6  
+s = 1  
 
-print ("Schrittweise Näherung von pi mit Hilfe eines 2n-Ecks")
+print ("Schrittweise Naeherung von pi mit Hilfe eines 2n-Ecks")
 
 for i in range(1,21):
 
