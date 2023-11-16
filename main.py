@@ -2,7 +2,7 @@ import square
 import subprocess
 
 def main():
-    print("Was möchten Sie 1tun?")
+    print("Was möchten Sie tun?")
     print("[1]Quadratische Funktion loesen")
     print("[2]Wurzel")
     eingabe=input("Ihre Wahl: ")
