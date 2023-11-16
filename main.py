@@ -1,4 +1,4 @@
-import solve_square_function
+import square
 
 def main():
     print("Was möchten Sie tun?")
@@ -7,12 +7,12 @@ def main():
 
     while eingabe!="bye":
         if eingabe == "1":
-            solve_square_function()
+            square()
         print("Was möchten Sie tun?")
         eingabe=input("Ihre Wahl: ")
 
-	    if(eingabe == "wurzel"):
-			wurzel_n()
+        if eingabe == "wurzel":
+            wurzel_n()
             
     print("Bye!")
     print("Farewell!")
