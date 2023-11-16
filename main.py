@@ -1,4 +1,5 @@
 import square
+import subprocess
 
 def main():
     print("Was möchten Sie tun?")
@@ -10,7 +11,7 @@ def main():
         if eingabe == "1":
             square()
         if eingabe == "2":
-            wurzel_n()
+            subprocess.run(["python3","wurzel_n.py"])
         print("Was möchten Sie tun?")
         eingabe=input("Ihre Wahl: ")
             
